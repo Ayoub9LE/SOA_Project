@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un Formulaire de Remboursement</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title text-center mb-4">Ajouter un Formulaire de Remboursement</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="codeMission">Code de Mission</label>
+                        <input type="text" class="form-control" id="codeMission" placeholder="Entrez le code de la mission">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="idDemandeur">ID du Demandeur</label>
+                        <input type="text" class="form-control" id="idDemandeur" placeholder="Entrez l'ID du demandeur">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="frais">Frais</label>
+                        <input type="number" class="form-control" id="frais" placeholder="Entrez les frais">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="budgetInitial">Budget Initial</label>
+                        <input type="number" class="form-control" id="budgetInitial" placeholder="Entrez le budget initial">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="montantRembourse">Montant Remboursé</label>
+                        <input type="number" class="form-control" id="montantRembourse" placeholder="Entrez le montant remboursé">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="validationFrais">Validation des Frais</label>
+                        <input type="text" class="form-control" id="validationFrais" placeholder="Entrez la validation des frais">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="validation">Validation</label>
+                        <input type="text" class="form-control" id="validation" placeholder="Entrez la validation">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="statut">Statut</label>
+                        <input type="text" class="form-control" id="statut" placeholder="Entrez le statut">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Ajouter le Remboursement</button>
+                    <button type="reset" class="btn btn-secondary">Réinitialiser le Formulaire</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.11/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
